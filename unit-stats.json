@@ -14891,7 +14891,7 @@
         "Type": "Explosion",
         "Image": "rbxassetid://122141966765485",
         "Rarity": "Nightmare",
-        "PlacePrice": 29000,
+        "PlacePrice": 100,
         "Offset": 0,
         "Max": 2,
         "Passive": {"Name": "Burn", "Description": "Deals 25% burn damage over 2 seconds."},
@@ -15438,3 +15438,4 @@
         ]
     }
 }
+
