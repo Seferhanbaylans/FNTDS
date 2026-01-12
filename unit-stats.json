@@ -11995,6 +11995,50 @@
             }
         ]
     },
+	    "Feddy Fazber": {
+        "Type": "Cone AOE + True Stun",
+        "Image": "rbxassetid://123702745874447",
+        "Rarity": "Modded",
+        "PlacePrice": 0,
+        "Offset": 0,
+        "Max": 100,
+        "Passive": {"Name": "fazber", "Description": "True stun is applied to enemies for 1.2 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 32,
+                "Damage": 100000,
+                "Cooldown": 4,
+                "TrueStun": 1.2
+            },
+            {
+                "Price": 75000,
+                "Range": 35,
+                "Damage": 130000,
+                "Cooldown": 4,
+                "TrueStun": 1.2
+            },
+            {
+                "Price": 85000,
+                "Range": 38,
+                "Damage": 160000,
+                "Cooldown": 4,
+                "TrueStun": 1.2
+            },
+            {
+                "Price": 100000,
+                "Range": 42,
+                "Damage": 200000,
+                "Cooldown": 4,
+                "TrueStun": 1.2
+            }
+        ]
+    },
     "Steve Raglan": {
         "Type": "CONE AOE + Anti Regen",
         "Image": "rbxassetid://73876097031973",
@@ -15542,6 +15586,7 @@
         ]
     }
 }
+
 
 
 
