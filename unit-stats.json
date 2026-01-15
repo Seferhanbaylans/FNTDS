@@ -5059,6 +5059,54 @@
             }
         ]
     },
+	"Minecraft Freddy": {
+        "Type": "Slash Stun",
+        "Image": "rbxassetid://131950981826505",
+        "Rarity": "Apex",
+        "PlacePrice": 22500,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Family Reunion", "Description": "Attacks stun enemies for 0.5 seconds. Circus Baby gains an additional 40% damage boost (stackable up to 120%) if a Springtrap or Ballora are on the same team."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 28,
+                "Damage": 4782,
+                "Cooldown": 3.25,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 31,
+                "Damage": 6374,
+                "Cooldown": 3,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 34,
+                "Damage": 7968,
+                "Cooldown": 2.75,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 30000,
+                "Range": 37,
+                "Damage": 9562,
+                "Cooldown": 2.55,
+                "Slow": 0,
+                "SlowTime": 0.5
+            }
+        ]
+    },
 "Ballora": {
         "Type": "Cooldown Booster",
         "Image": "rbxassetid://96561789964833",
@@ -6965,6 +7013,54 @@
         "Type": "Pierce",
         "Image": "rbxassetid://92313535673690",
         "Rarity": "Nightmare",
+        "PlacePrice": 30000,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Inferno-Laser", "Description": "Attacks deal an additional 400% damage in burn over 2 seconds."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 650,
+                "Cooldown": 0.25,
+                "Burn": 2600,
+                "BurnTime": 2
+            },
+            {
+                "Price": 35000,
+                "Range": 23,
+                "Damage": 850,
+                "Cooldown": 0.25,
+                "Burn": 3400,
+                "BurnTime": 2
+            },
+            {
+                "Price": 40000,
+                "Range": 27,
+                "Damage": 1050,
+                "Cooldown": 0.25,
+                "Burn": 4200,
+                "BurnTime": 2
+            },          
+             {
+                "Price": 45000,
+                "Range": 30,
+                "Damage": 1250,
+                "Cooldown": 0.25,
+                "Burn": 5000,
+                "BurnTime": 2
+            }
+        ]
+    },
+	    "Glamrock Toy Freddy": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://81804727979318",
+        "Rarity": "Celestial",
         "PlacePrice": 30000,
         "Offset": 0,
         "Max": 2,
@@ -15586,6 +15682,7 @@
         ]
     }
 }
+
 
 
 
