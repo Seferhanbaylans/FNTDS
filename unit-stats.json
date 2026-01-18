@@ -15877,6 +15877,71 @@
 
         ]
     },
+	     "The Ultimate BrickBattler": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://83951369888083",
+        "Rarity": "Apex",
+        "PlacePrice": 20000,
+        "Max": 2,
+        "Passive": {"Name": "KABOOM!", "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "},
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 18000,
+                "Cooldown": 4,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 30000,
+                "Range": 24,
+                "Damage": 22000,
+                "Cooldown": 3.33,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 40000,
+                "Range": 28,
+                "Damage": 26000,
+                "Cooldown": 2.66,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 50000,
+                "Range": 32,
+                "Damage": 30000,
+                "Cooldown": 2,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            }
+
+        ]
+    },
     "Warpseer Mangle": {
         "Type": "Nuke",
         "Image": "rbxassetid://134052825970100",
@@ -16086,6 +16151,7 @@
         ]
     }
 }
+
 
 
 
